@@ -12,26 +12,40 @@ Epilepsy is a neurological disorder in which brain activity becomes abnormal, ca
 Musical stimuli that are engineered for persons with epilepsy present a compelling alternative to current invasive neuromodulation techniques for regulating abnormal epileptiform brain rhythms, such as interictal epileptiform activity (IEA). IEA is associated with increased seizure frequency and impaired cognition [1,2], which are both predictive factors of a poor quality of life in persons with epilepsy.  One feature considered inherent to this is that ‘suppression of epileptic activity may improve cognition and behavior.’ From our analysis we are trying to show how with the ability of music, we can decrease neuronal discharge and thus reduce seizures. 
 Mozart’s Sonata for Two Pianos (K.448) is recognized for its anti-epileptogenic effects [3,4] such as its reductions in IEA[5]. Lin et al. (2011) reported a long-term reduction in IEA and seizures in response to sustained exposure to Mozart K.448[6]. In order to test this theory, we looked for physical features of Mozart K.448 that may explain its benefits to listeners.
 
-Results :
-
+### Results :
+![](Plots_Results/Figure1.png)
 Figure 1: It shows the third minute of Mozart K545 is convergent to the average of three-minute segment of Mozart K448 in modulation frequency range of [30,60]. Here REF is Mozart K448
 
 
+
+![](Plots_Results/Figure2.1.png)
 Figure 2.1: It shows the scatter plot for p values and U statistics of 314 Rock n Roll music corpus
 
+
+
+![](Plots_Results/Figure2.2.png)
 Figure 2.2: It shows the scatter plot for p values and U statistics of
 257 Classical music corpus
 
+
+
+![](Plots_Results/Figure3.1.png)
 Figure 3.1: Shows the separation of harmonic and percussions from the modulation spectrogram 
 
+
+
+![](Plots_Results/Figure3.2.png)
 Figure 3.2: Shows the bimodal distribution in all the one-minute segment of all the pieces collected after removal of percussions
 
+
+
+![](Plots_Results/Figure3.3.png)
 Figure 3.3: Shows the density plot for different genres based on average modulation power spectrum
 
 ### Implications of work 
 As a team we had to come up with the songs that we want to test with epileptic patients. We will be testing our hypothesis of modulation spectrum being the main property of a musical stimuli behind reducing the interictal spikes by playing one song with the highest U statistics or in other words a song that is the closest to K448 in terms of modulation spectrum and another song that is least similar to K448(lowest p value / U statistic) from each genre. Another hypothesis that we are testing is if we can create a classifier based on the amount of power in modulation on average present in a piece. 
 
-References :
+### References :
 1.	Chapman KE, Specchio N, Shinnar S, Holmes GL. Seizing control of epileptic activity can improve outcome.
 2.	Epilepsia. 2015 Oct;56(10):1482–1485. Holmes GL, Lenck-Santini P-P. Role of interictal epileptiform abnormalities in cognitive impairment. Epilepsy & Behavior. 2006 May;8(3):504–515.
 3.	Lin L-C, Lee M-W, Wei R-C, Mok H-K, Yang R-C. Mozart K.448 listening decreased seizure recurrence and epileptiform discharges in children with first unprovoked seizures: a randomized controlled study. BMC Complementary and Alternative Medicine [Internet]. 2014 Dec [cited 2018 Jul 25];14(1).
